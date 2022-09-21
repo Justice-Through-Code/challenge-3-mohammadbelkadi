@@ -1,8 +1,4 @@
 
-'''
-Debug the following code snippets so that they all run successfully
-'''
-
 
 
 def snippet_1():
