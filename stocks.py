@@ -5,7 +5,7 @@ def stock_purchases():
     fb = 250
     google = 1400
     msft = 200
- 
+
     # Given the prices above and a client's investment budget, how much stock can they buy?
     # 1.1 TODO: Ask the client's name (use the string: "What is your name? ") and save it into a variable
     clients_name = input("what is your name?")
