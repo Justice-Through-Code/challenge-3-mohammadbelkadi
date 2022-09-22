@@ -1,4 +1,3 @@
-
 def snippet_1():
     u = 5
     v = 2
