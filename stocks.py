@@ -5,7 +5,8 @@ def stock_purchases():
     fb = 250
     google = 1400
     msft = 200
-
+    print("stock_purchases")
+    
     # Given the prices above and a client's investment budget, how much stock can they buy?
     # 1.1 TODO: Ask the client's name (use the string: "What is your name? ") and save it into a variable
     clients_name = input("what is your name?")
@@ -32,7 +33,7 @@ def stock_purchases():
     elif stock_name == "Google":
         stock = google          
     elif stock_name == "Microsoft":
-        stock = microsoft 
+        stock = msft 
     stocks_availble = clients_amount / stock      
     # 1.5 TODO: Once you've calculated the number of stocks that can be purchased,
     # Use an f-string to print the result for the client, ala:
