@@ -32,14 +32,14 @@ def snippet_3():
     b = 1
     c = (a == b)
 
-    print(f"The value of c ({c}) is True since a ({a}) is equal to ({b}).")
+    print(f"The value of c ({c}) is True since a ({a}) is equal to b ({b}).")
     assert(c == True)  # <-- DO NOT EDIT THIS LINE
 
 
 def snippet_4():
     # TODO: Modify exactly one boolean operator in the assignment of d, so that d evaluates to False
 
-    d = (8 < 7) or not (22 < 20)
+    d = (5 > 7) or not (8 < 20)
 
     # TODO: Explain how d is set to False in a comment
     assert(d == False)  # <-- DO NOT EDIT THIS LINE
